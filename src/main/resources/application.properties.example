@@ -1,0 +1,16 @@
+# Disables preconfigured metrics
+management.metrics.enable.tomcat=false
+management.metrics.enable.jvm=false
+management.metrics.enable.process=false
+management.metrics.enable.system=false
+management.metrics.enable.logback=false
+
+# management.metrics.export.dynatrace.enabled=false
+management.metrics.export.dynatrace.apiToken=
+management.metrics.export.dynatrace.uri=
+management.metrics.export.dynatrace.deviceId=
+# Changes push interval, in seconds
+# management.metrics.export.dynatrace.step=30s
+
+# Enables DynatraceMeterRegistry logging
+# logging.level.io.micrometer.dynatrace=DEBUG
