@@ -21,3 +21,17 @@ Metric data can be seen in Dynatrace using custom charting feature.
 ```shell script
 $ ./gradlew bootRun
 ```
+
+Some screenshots how the data is seen within Dynatrace using custom charting feature
+
+`custom:temperature`
+
+![temperature](./screenshots/temperature.png)
+
+`custom:temperature` splitted by continent
+
+![temperature splity by continent](./screenshots/temperature-split-by-continent.png)
+
+`custom:temperature` splitted by city
+
+![temperature](./screenshots/temperature-split-by-city.png)
